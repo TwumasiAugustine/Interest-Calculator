@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Interest Calculator</title>
+</head>
+<body>
+    <div id="container">
+        <div id="app-container">
+            <h2>Interest Calculator</h2>
+            <p>A = P(1 + rt)</p>
+            <div class="inputs-container">
+                <label for="principal">Enter Principal ($)</label>
+                <input type="number" placeholder="Enter principal" id="principal">
+            </div>
+            <div class="inputs-container">
+                <label for="rate">Enter Rate Of Interest (%)</label>
+                <input type="number" placeholder="Enter Rate" id="rate">
+            </div>
+            <div class="inputs-container">
+                <label for="year">Enter Years (yr)</label>
+                <input type="number" placeholder="Enter Year" id="year">
+            </div>
+            <div class="inputs-container btn-container">
+                <button id="btn">Calculate</button>
+            </div>
+            <div id="outputs">
+                <p id="interest-output">Total Interest: $0.00</p>
+                <p id="amount-output">Amount: $0.00</p>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
